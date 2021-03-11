@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +7,26 @@
 }
 
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+    font-family: 'Raleway', sans-serif;
+    background :#fff;
+    color:#333;
+    line-height: 1.6em;
+
 }
 
+ul {
+    list-style: none;
+}
+
+a {
+    color: #333;
+    text-decoration : none;    
+}
+
+p {
+    margin: 10px 0px;
+}
+
+img {
+    width: 100%;
+}
