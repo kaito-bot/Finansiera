@@ -12,6 +12,7 @@ body {
     color:#333;
     line-height: 1.6em;
 
+
 }
 
 ul {
@@ -78,6 +79,7 @@ img {
     position: relative;
 }
 
+
 .hero .content {
     display: flex;
     flex-direction: column;
@@ -85,8 +87,7 @@ img {
     justify-content: center;
     height: 100%;
     padding: 0px 20px;
-   
-    
+     
 }
 
 .hero .content h1 {
@@ -123,18 +124,12 @@ img {
 
 /* About section */
 
-#about .flex-box {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    height: 100%;
-}
 
-.flex-box h2{
+.icons h2{
     font-weight: 600;
 }
 
-.flex-box i {
+.icons i {
     margin-bottom: 30px;
     background : #138D75;
     color: #fff;
@@ -142,8 +137,5 @@ img {
     padding: 16px;
 }
 
-.flex-box >div {
-    padding: 30px;
-}
 
 
