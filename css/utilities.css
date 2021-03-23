@@ -106,3 +106,39 @@
 .flex-columns h4 {
     margin-bottom: 10px;
 }
+
+.section-header {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-header h1 {
+    margin: 20px;
+}
+
+.section-padding {
+    padding: 20px 20px 40px;
+}
+
+.flexgrid .row{
+    display: flex;
+    flex-wrap: wrap;
+    padding:0 4px;
+}
+
+.flexgrid .column {
+    display: flex;
+    flex-direction: column;
+    max-width: 25%;
+    
+}
+
+.flexgrid .column img {
+    
+    padding:4px 4px;
+    
+
+}
