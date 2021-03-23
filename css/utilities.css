@@ -61,6 +61,10 @@
 }
 
 /* .flex-columns */
+
+.flex-columns.flex-reverse .row{
+    flex-direction: row-reverse;
+}
 .flex-columns .row {
     display: flex;
     flex-direction: row;
@@ -73,7 +77,6 @@
 .flex-columns .column {
     display: flex;
     flex-direction: column;
-    /* flex-basis: 100%; */
    flex: 1;
   
     
@@ -107,6 +110,7 @@
     margin-bottom: 10px;
 }
 
+/* section */
 .section-header {
     font-size: 20px;
     display: flex;
