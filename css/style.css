@@ -25,11 +25,11 @@ a {
 }
 
 p {
-    margin: 10px 0px;
+    margin: 5px 0px;
 }
 
 h1, h2 {
-    font-weight: 300;
+    font-weight: 600;
     line-height: 1.2;
 }
 
@@ -141,3 +141,7 @@ img {
  opacity: 0.7;
 }
 
+/* proffesional team */
+#teams .flex-items img {
+    border-radius: 5%;
+}
