@@ -93,6 +93,8 @@ img {
 .hero .content h1 {
     color: #fff;
     font-size: 55px;
+    max-width: 600px;
+    text-align: center;
     
 }
 
@@ -202,4 +204,38 @@ input:focus {
 
 .footer .social a {
     padding:0px 5px;
+}
+
+/* responsive website code */
+
+@media(max-width:768px){
+    .navbar {
+        flex-direction: column;
+        height: 120px;
+        padding: 20px;
+    }
+
+    .navbar a {
+        padding: 10px 10px;
+        margin: 0 3px;
+        
+    }
+
+    .hero img {
+        width: 100vh;
+        height: 100vh;
+    }
+
+    .flex-items {
+        flex-direction: column;
+    }
+
+    .flex-columns .column , .flexgrid .column { 
+        flex:100%;
+        max-width: 100%;
+    }
+
+    .flex-columns.flex-reverse .row {
+        flex-direction: column;
+    }
 }
