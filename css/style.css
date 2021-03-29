@@ -124,6 +124,10 @@ img {
     z-index: 10;
 }
 
+.hero.blog {
+background: url(../images/blog.jpg) no-repeat center center/cover;
+height: 70vh;
+}
 /* About section */
 
 
