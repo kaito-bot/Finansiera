@@ -38,6 +38,7 @@ img {
 }
 
 /*  */
+
 .navbar {
     display:flex;
     align-items: center;
@@ -53,9 +54,11 @@ img {
 
 }
 
-.navbar.top {
+.navbar.top{
     background: transparent;
 }
+
+
 
 .navbar ul {
     display: flex;
