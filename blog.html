@@ -16,7 +16,7 @@
 <body>
     <header>
         <div id="#Home" class="hero blog">
-            <div id="navbar" class="navbar">
+            <div id="navbar" class="navbar top">
                 <h1 class="logo"><span class="text-primary"><i class="fas fa-coins"></i> Finan</span>Siera</h1>
 
                 <nav>
@@ -133,6 +133,20 @@
         </div>
         <p>Copyright &copy; 2021 - Finansiera</p>
     </footer>
+
+    <script>
+        const navbar = document.getElementById('navbar');
+
+        window.onscroll = function () {
+            if (window.pageYOffset > 100) {
+                navbar.classList.remove('top');
+            }
+
+            else {
+                navbar.classList.add('top');
+            }
+        }
+    </script>
 
 </body>
 

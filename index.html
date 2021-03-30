@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Finansiera | Welcome</title>
+    <link rel="stylesheet" href="/css/lightbox.css">
     <link rel="stylesheet" href="/css/utilities.css">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
@@ -92,20 +93,28 @@
             </header>
             <div class="row">
                 <div class="column">
-                    <img src="./images/section-1.jpg" alt="">
-                    <img src="./images/section-2.jpg" alt="">
+                    <a href="./images/section-1.jpg" data-lightbox="Cases" data-title=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, amet."> <img src="./images/section-1.jpg" alt=""> </a>
+                   
+                    <a href="./images/section-2.jpg" data-lightbox="Cases" data-title=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, amet."> <img src="./images/section-2.jpg" alt=""> </a>
+
                 </div>
                 <div class="column">
-                    <img src="./images/section-3.jpg" alt="">
-                    <img src="./images/section-4.jpg" alt="">
+                    <a href="./images/section-3.jpg" data-lightbox="Cases" data-title=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, amet."> <img src="./images/section-3.jpg" alt=""> </a>
+
+                    <a href="./images/section-4.jpg" data-lightbox="Cases" data-title=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, amet."> <img src="./images/section-4.jpg" alt=""> </a>
+
                 </div>
                 <div class="column">
-                    <img src="./images/section-5.jpg" alt="">
-                    <img src="./images/section-6.jpg" alt="">
+                    <a href="./images/section-5.jpg" data-lightbox="Cases" data-title=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, amet."> <img src="./images/section-5.jpg" alt=""> </a>
+
+                    <a href="./images/section-6.jpg" data-lightbox="Cases" data-title=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, amet."> <img src="./images/section-6.jpg" alt=""> </a>
+
                 </div>
                 <div class="column">
-                    <img src="./images/section-7.jpg" alt="">
-                    <img src="./images/section-8.jpg" alt="">
+                    <a href="./images/section-7.jpg" data-lightbox="Cases" data-title=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, amet."> <img src="./images/section-7.jpg" alt=""> </a>
+
+                    <a href="./images/section-8.jpg" data-lightbox="Cases" data-title=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, amet."> <img src="./images/section-8.jpg" alt=""> </a>
+
                 </div>
             </div>
         </section>
@@ -213,7 +222,7 @@
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-
+    <script src="/js/lightbox.js"></script>
     <script>
         const navbar = document.getElementById('navbar');
 
@@ -237,7 +246,7 @@
                     {
                         scrollTop: $(hash).offset().top -100,
                     },
-                    800
+                    300
                 );
             }
 
